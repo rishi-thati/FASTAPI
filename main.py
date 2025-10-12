@@ -10,3 +10,4 @@ def root_url():
 @app.get("/sub")
 def internal_url():
     return {"message":"hi"}
+
